@@ -1,0 +1,15 @@
+{
+  "name": "mongodb",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": "https://github.com/vietnvhust/mongodb.git",
+  "author": "chestnut <vietnv.hust@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "mocha": "^8.2.1",
+    "mongoose": "^5.11.15"
+  }
+}

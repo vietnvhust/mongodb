@@ -1,0 +1,13 @@
+const mongoose = require('mongoose')
+const Schema = mongoose.Schema;
+// Create Schema and Model
+const BookSchema = new Schema({
+    title: String
+})
+const AuthorSchema = new Schema({
+    name: String,
+    age: Number,
+    books: [BookSchema]
+})
+const Author = mongoose.model('author', AuthorSchema)
+module.exports = PersonChar
